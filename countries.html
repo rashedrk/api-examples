@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries</title>
+    <style>
+        #countries-container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 15px;
+        }
+        .country{
+            border: 2px solid lightcoral;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
+    <section id="country-details">
+    </section>
+    <h3>All countries</h3>
     <section id="countries-container">
-
+        
     </section>
     <script src="./js/countries.js"></script>
 </body>
 </html>
+
